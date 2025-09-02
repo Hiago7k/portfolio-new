@@ -1,5 +1,5 @@
 /* ---------------- Responsividade Mobile (até 390px) ---------------- */
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 320px) {
 
 main{
     display: flex;
@@ -60,6 +60,10 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     gap: 12px;
+  }
+
+  .meio{
+    height: 1000px;
   }
 
   .projetos {
