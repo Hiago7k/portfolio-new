@@ -56,7 +56,7 @@ function App() {
         </header>
 
         <section>
-          <div className='section-conteudo'>
+          <div className='section-conteudo' data-aos="fade-up">
             <div className='sobre'><h3>Sobre min...</h3></div>
 
             <h1>Desenvolvedor & Software</h1>
@@ -71,19 +71,19 @@ function App() {
             </div>
           </div>
 
-          <div className='fundo-foto'>
+          <div className='fundo-foto' data-aos="fade-up">
             <img src={foto} alt="" />
           </div>
 
         </section>
 
-        <div className='tecnologias'>
+        <div className='tecnologias' >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#101011" fill-opacity="1" d="M0,192L48,192C96,192,192,192,288,170.7C384,149,480,107,576,80C672,53,768,43,864,69.3C960,96,1056,160,1152,176C1248,192,1344,160,1392,144L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
         </div>
 
         <div className='meio' id='sobre'>
           <h1>Stacks</h1>
-          <div className='stacks'>
+          <div className='stacks' data-aos="fade-up">
             <img align="center" alt="DotNet" height="120" width="120" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg"></img>
             <img align="center" alt="Csharp" height="120" width="120" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"></img>
             <img align="center" alt="Express" height="120" width="120" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg"></img>
@@ -101,8 +101,8 @@ function App() {
         </div>
 
 
-        <section className='projetos' id='projetos'>
-          <div className='projeto'>
+        <section className='projetos ' id='projetos'>
+          <div className='projeto' data-aos="fade-up">
             <h1>Lading Page Freelancer</h1>
             <p>MKT Midia Social landing page, feita para MKT Midia Social, com entuito de divulgar e exibir seu trabalho, tecnologias utilizadas React, biblioteca AOS animacoes suave no site, JavaScript, API wpp, para contato, Site Responssivo para layout mobile </p>
             <div className='btn-container'>
@@ -110,11 +110,11 @@ function App() {
               <div className='btn-projeto'><a href="https://mkt-social.vercel.app/?fbclid=PAZXh0bgNhZW0CMTEAAafjUQRlzfeC8XzMSck2JtX6Aps54PmYv_jwNe3bSXf5gmEtOTWTV32vcBli0A_aem_7pdntvT4f9I1uXdXqLv7CA" target="_blank">Link do Site</a></div>
             </div>
           </div>
-          <div className='projeto-image'>
+          <div className='projeto-image' data-aos="fade-up">
             <img src={projeto1} alt="" />
           </div>
 
-          <div className='projeto'>
+          <div className='projeto' data-aos="fade-up">
             <h1>Crud MovieFlix-API</h1>
             <p>Crud, que desenvolvi para uma lista de filmes, utilizei Node.JS Expess, PostgreSQL, DBeve e Swagger</p>
             <div className='btn-container'>
@@ -122,11 +122,11 @@ function App() {
               <div className='btn-projeto'><a href="https://github.com/Hiago7k/movieflix-api" target="_blank">Link do Site</a></div>
             </div>
           </div>
-          <div className='projeto-image'>
+          <div className='projeto-image' data-aos="fade-up">
             <img src={movieflix} alt="" />
           </div>
 
-          <div className='projeto'>
+          <div className='projeto' data-aos="fade-up">
             <h1>Portfolio Antigo</h1>
             <p>Portfolio antigo que criei para min mesmo, deixei aqui para acompanhar a evolucao, tecnologias simples React, JS, CSS</p>
             <div className='btn-container'>
@@ -134,7 +134,7 @@ function App() {
               <div className='btn-projeto'><a href="https://mkt-social.vercel.app/?fbclid=PAZXh0bgNhZW0CMTEAAafjUQRlzfeC8XzMSck2JtX6Aps54PmYv_jwNe3bSXf5gmEtOTWTV32vcBli0A_aem_7pdntvT4f9I1uXdXqLv7CA" target="_blank">Link do Site</a></div>
             </div>
           </div>
-          <div className='projeto-image'>
+          <div className='projeto-image' data-aos="fade-up">
             <img src={projeto2} alt="" />
           </div>
 
