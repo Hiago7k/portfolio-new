@@ -1,0 +1,190 @@
+/* ---------------- Responsividade Mobile (até 390px) ---------------- */
+@media screen and (max-width: 390px) {
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 12px;
+    gap: 12px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+
+  .section-conteudo{
+    align-items: center;
+  }
+  section {
+    flex-direction: column;
+    height: auto;
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .section-conteudo {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .fundo-foto {
+    margin-top: 20px;
+  }
+
+  .fundo-foto img {
+    width: 250px;
+    height: 250px;
+  }
+
+
+  .sobre{
+    opacity: 0;
+  }
+
+  .redes-sociais{
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .stacks {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .projetos {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .projeto, 
+  .projeto-image {
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .projeto p {
+    font-size: 0.9rem;
+  }
+
+  .btn-container {
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  .btn-projeto {
+    width: 100%;
+
+    
+  }
+}
+
+
+
+
+@media screen and (max-width: 760px) {
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 12px;
+    gap: 12px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+
+  .section-conteudo{
+    align-items: center;
+  }
+  section {
+    flex-direction: column;
+    height: auto;
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .section-conteudo {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .fundo-foto {
+    margin-top: 20px;
+  }
+
+  .fundo-foto img {
+    width: 250px;
+    height: 250px;
+  }
+
+
+  .sobre{
+    opacity: 0;
+  }
+
+  .redes-sociais{
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .stacks {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .projetos {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .projeto, 
+  .projeto-image {
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .projeto p {
+    font-size: 0.9rem;
+  }
+
+  .btn-container {
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  .btn-projeto {
+    width: 100%;
+
+  }
+
+  footer{
+    width: 100%;
+  }
+}
